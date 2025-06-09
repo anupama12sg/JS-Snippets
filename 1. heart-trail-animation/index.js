@@ -1,5 +1,10 @@
-const bodyElement = document.querySelector("body")
+const bodyElement = document.querySelector("body");
 
 bodyElement.addEventListener("mousemove", (event) => {
-    console.log(event.offsetY);
-})
+    const xPos = event.offsetX;
+    const yPos = event.offsetY;
+    const spanElement = document.createElement("span");
+    spanElement.style.left = xPos + "px";
+    spanElement.style.top = yPos + "px";
+    bodyElement.appendChild(spanElement);
+});
