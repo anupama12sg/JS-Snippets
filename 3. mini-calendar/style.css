@@ -5,7 +5,7 @@ body {
     height: 100vh;
     align-items: center;
     font-family: cursive;
-    background-color: lightblue;
+    background-color: darkmagenta;
 }
 
 .calendar-container {
@@ -19,7 +19,7 @@ body {
 
 .month-name {
     margin: 0;
-    background-color: blue;
+    background-color: rgb(233, 4, 233);
     color: white;
     padding: 10px;
     font-size: 30px;
@@ -28,5 +28,18 @@ body {
 
 .day-name {
     font-size: 20px;
-    color: darkcyan;
+    color: gray;
+}
+
+.day-number {
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.year {
+    margin: 20px;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
 }
