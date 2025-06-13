@@ -7,4 +7,4 @@ const dayNum = document.getElementById("day-number")
 const yearElement = document.getElementById("year")
 
 const date = new Date();
-console.log(date.getDate());
+console.log(date.getFullYear());
