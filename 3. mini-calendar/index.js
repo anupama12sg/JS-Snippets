@@ -7,4 +7,12 @@ const dayNum = document.getElementById("day-number")
 const yearElement = document.getElementById("year")
 
 const date = new Date();
-console.log(date.getFullYear());
+
+const month = date.getMonth()
+monthName.innerText = date.toLocaleString("en", {
+    month: "long"
+})
+
+dayName.innerText = date.toLocaleString("en", {
+    weekday: "long"
+})
