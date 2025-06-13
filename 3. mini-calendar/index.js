@@ -4,4 +4,7 @@ const dayName = document.getElementById("day-name")
 
 const dayNum = document.getElementById("day-number")
 
-const year = document.getElementById("year")
+const yearElement = document.getElementById("year")
+
+const date = new Date();
+console.log(date);
