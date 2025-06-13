@@ -16,3 +16,5 @@ monthName.innerText = date.toLocaleString("en", {
 dayName.innerText = date.toLocaleString("en", {
     weekday: "long"
 })
+
+dayNum.innerText = date.getDate()
