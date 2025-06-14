@@ -19,6 +19,11 @@ body {
     overflow: hidden;
 }
 
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+
 .btn::before {
     content: "";
     position: absolute;
