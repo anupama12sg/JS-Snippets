@@ -30,7 +30,10 @@ function updateTestimonial() {
     textEl.innerHTML = text;
     userNameEl.innerHTML = name;
     idx++
-    setTimeout(() => {
-        updateTestimonial()
-    }, 2000)
+    if (idx === testimonials.length) {
+        idx = 0;
+    }
+        setTimeout(() => {
+            updateTestimonial()
+        }, 5000)
 }
