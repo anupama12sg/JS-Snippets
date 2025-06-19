@@ -2,9 +2,9 @@ const inputEl = document.querySelector(".input");
 
 const bodyEl = document.querySelector("body")
 
-inputEl.checked = false;
+inputEl.checked = JSON.parse(localStorage.getItem("mode"));
 
-updateBody()
+updateBody();
 
 function updateBody() {
     if (inputEl.checked) {
