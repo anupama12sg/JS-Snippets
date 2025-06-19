@@ -10,13 +10,13 @@ body {
 .testimonial-container {
     width: 500px;
     height: 100px;
-    background-color: rgb(243, 189, 243);
+    background-color: rgb(132, 31, 31);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     min-width: 400px;
     padding: 70px 20px;
     margin: 5px;
-    color: black;
+    color: white;
     position: relative;
 }
 
