@@ -27,3 +27,22 @@ body {
     box-sizing: border-box;
     border: solid 2px darkgray;
 }
+
+.counter-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.counter-container p {
+    font-size: 18px;
+    color: gray;
+}
+
+.total-counter {
+    color: rgb(25, 5, 149);
+}
+
+.remaining-counter {
+    color: rgb(171, 53, 53);
+}
