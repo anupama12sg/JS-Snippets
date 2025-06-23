@@ -53,3 +53,23 @@ h1 {
     background-image: url("https://m.media-amazon.com/images/I/71bdE2zv5+S.jpg");
     background-size: cover;
 }
+
+.active-left .left {
+    width: 75%;
+}
+
+.active-left .right {
+    width: 25%;
+}
+
+.active-right .left {
+    width: 25%;
+}
+
+.active-right .right {
+    width: 75%;
+}
+
+.left, .right{
+    transition: width 2s ease-in-out;
+}
