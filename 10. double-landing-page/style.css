@@ -8,6 +8,10 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+h1{
+    font-size: 100px;
+}
+
 .split {
     width: 50%;
     height: 100%;
