@@ -7,3 +7,21 @@ body {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.split {
+    width: 50%;
+    height: 100%;
+    top: 0;
+}
+
+.split.left {
+    position: absolute;
+    left: 0;
+    background-color: pink;
+}
+
+.split.right {
+    position: absolute;
+    right: 0;
+    background-color: lightblue;
+}
