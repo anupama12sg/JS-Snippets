@@ -40,10 +40,14 @@ h1 {
     position: absolute;
     left: 0;
     background-color: pink;
+    background-image: url("https://images.lapicart.com/wp-content/uploads/2024/07/iphone-13-pro-blue-2-2.webp");
+    background-size: cover;
 }
 
 .split.right {
     position: absolute;
     right: 0;
     background-color: lightblue;
+    background-image: url("https://m.media-amazon.com/images/I/71bdE2zv5+S.jpg");
+    background-size: cover;
 }
