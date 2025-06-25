@@ -14,6 +14,7 @@ function generateColors() {
     colorContainerEls.forEach((colorContainerEl) => {
         const newColorCode = randomColor()
         colorContainerEl.style.backgroundColor = "#" + newColorCode;
+        colorContainerEl.innerText = "#" + newColorCode
     })
 }
 
