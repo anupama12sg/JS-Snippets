@@ -12,3 +12,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container {
+    padding: 100px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: grey;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 10px;
+    }
+}
