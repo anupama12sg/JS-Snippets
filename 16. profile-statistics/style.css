@@ -8,3 +8,16 @@ body {
     background-color: yellow;
     font-family: cursive;
 }
+
+.stats-container {
+    margin: 20px;
+    border: dotted green;
+    min-width: 200px;
+    height: 100px;
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
