@@ -1,12 +1,15 @@
 const countersEl = document.querySelectorAll(".counter")
 
-countersEl.forEach(countersEl => {
-    countersEl.innerText = "0";
+countersEl.forEach(counterEl => {
+    counterEl.innerText = "0";
 
     incrementCounter()
 
     function incrementCounter() {
-        const currentNum = +countersEl.innerHTML
-        const dataCeil = countersEl.getAttribute("data-ceil")
+        let currentNum = +counterEl.innerText
+        const dataCeil = counterEl.getAttribute("data-ceil")
+        const increment = dataCeil / 5
+        currentNum = currentNum + increment
+        counterEl.innerText = currentNum
     }
 });
