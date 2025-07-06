@@ -9,7 +9,13 @@ countersEl.forEach(counterEl => {
         let currentNum = +counterEl.innerText
         const dataCeil = counterEl.getAttribute("data-ceil")
         const increment = dataCeil / 5
-        currentNum = currentNum + increment
-        counterEl.innerText = currentNum
+        currentNum = Math.ceil(currentNum + increment)
+
+        if (currentNum < dataCeil) {
+            counterEl.innerText = currentNum
+            setTimeout(incrementCounter, 50)
+        } else {
+            counterEl.innerText = dataCeil
+        }
     }
 });
