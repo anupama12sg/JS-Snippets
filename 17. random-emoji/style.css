@@ -18,3 +18,15 @@ h2 {
 .section {
     text-align: center;
 }
+
+.btn {
+    font-size: 5rem;
+    border: none;
+    background: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    filter: grayscale();
+    transition: filter 0.2s ease-in-out;
+    cursor: pointer;
+}
