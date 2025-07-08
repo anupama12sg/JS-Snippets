@@ -1,6 +1,14 @@
 const btnEl = document.getElementById("btn")
 const emojiNameEl = document.getElementById("emoji-name")
 
-btnEl.addEventListener("click", () => {
+const emoji = [];
 
+function getEmoji() {
+
+}
+
+getEmoji()
+
+btnEl.addEventListener("click", () => {
+    
 })
