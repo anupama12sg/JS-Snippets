@@ -6,5 +6,28 @@ body {
     height: 100vh;
     justify-content: center;
     font-family: cursive;
-    background-color: rgb(199, 252, 119);
+    background-color: rgb(190, 222, 143);
+}
+
+h2 {
+    color: darkgreen;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+}
+
+.year {
+    font-size: 5em;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.countdown {
+    margin: 30px;
+    background-color: rgb(221, 242, 207);
+    width: 100%;
+    color: darkgreen;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
