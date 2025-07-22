@@ -7,14 +7,13 @@ body {
     justify-content: center;
     font-family: cursive;
     background-color: rgb(190, 222, 143);
-    overflow: hidden;
 }
 
 h2 {
     color: darkgreen;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .4px;
+    letter-spacing: 4px;
 }
 
 .year {
@@ -66,10 +65,10 @@ h2 {
     content: "Hours";
 }
 
-.countdown #minutes::before {
-    content: "Minutes"
+.countdown #minute::before {
+    content: "Minutes";
 }
 
-.countdown #seconds::before {
+.countdown #second::before {
     content: "Seconds";
 }
