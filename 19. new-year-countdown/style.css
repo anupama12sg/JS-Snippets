@@ -7,10 +7,12 @@ body {
     justify-content: center;
     font-family: cursive;
     background-color: rgb(190, 222, 143);
+    overflow: hidden;
 }
 
 h2 {
     color: darkgreen;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: .4px;
 }
@@ -30,4 +32,44 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.countdown div {
+    margin: 0 15px;
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-top: -25px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.countdown div::before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-size: 0.35em;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+}
+
+.countdown #day::before {
+    content: "Days";
+}
+
+.countdown #hour::before {
+    content: "Hours";
+}
+
+.countdown #minutes::before {
+    content: "Minutes"
+}
+
+.countdown #seconds::before {
+    content: "Seconds";
 }
